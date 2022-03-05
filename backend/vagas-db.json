@@ -1,0 +1,29 @@
+{
+    "vagas" :
+    [
+        {
+            "id" : 1,
+            "nome" : "Programador Junior I",
+            "foto" : "foto01.png",
+            "descricao" : "Necessário conhecimento de PHP, HodeJS, CSS, HTML...",
+            "salario" : 2000.00
+        },
+        {
+            "id" : 2,
+            "nome" : "Programador Junior II",
+            "foto" : "foto02.png",
+            "descricao" : "Necessário conhecimento de PHP, HodeJS, CSS, HTML...",
+            "salario" : 3000.00
+        },
+        {
+            "id" : 3,
+            "nome" : "Programador Senior I",
+            "foto" : "foto03.png",
+            "descricao" : "Necessário conhecimento de PHP, HodeJS, CSS, HTML...",
+            "salario" : 5000.00
+        }
+    ]
+
+
+
+}

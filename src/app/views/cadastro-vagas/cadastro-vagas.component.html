@@ -1,0 +1,20 @@
+<form>
+    <div class="mb-3">
+      <label for="nome" class="form-label">Nome da Vaga</label>
+      <input type="text" class="form-control" id="nome" [(ngModel)]="dados.nome" name="nome" required>
+    </div>
+    <div class="mb-3">
+      <label for="foto" class="form-label">Nome da Foto</label>
+      <input type="text" class="form-control" id="foto" name="foto" [(ngModel)]="dados.foto" aria-describedby="fotoHelp" required>
+      <div id="fotoHelp" class="form-text">Indique o nome da foto que vai ser utilizada com a extensão.A foto deve estar na pasta assets/img/vagas</div>
+    </div>
+    <div class="mb-3">
+      <label for="descricao" class="form-label">Descrição da Vaga</label>
+      <textarea class="form-control" id="descricao" name="descricao" [(ngModel)]="dados.descricao" rows="3"></textarea>
+    </div>         
+    <div class="mb-3">
+      <label for="salario" class="form-label">Salário da Vaga</label>
+      <input type="number" class="form-control" id="salario" step=".01" name="salario" [(ngModel)]="dados.salario" required>
+    </div>    
+    <button class="btn btn-primary" (click)="gravar()">Gravar</button>
+  </form>

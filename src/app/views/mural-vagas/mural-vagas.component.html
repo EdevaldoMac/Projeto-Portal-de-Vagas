@@ -1,0 +1,12 @@
+<h1>Estas são as vagas disponíveis</h1>
+<section id="vagas">
+    <div *ngFor="let vaga of vagas;" class="card" style="width: 18rem;">     
+        <img src="assets/img/vagas/{{vaga.foto}}" class="card-img-top" alt="Imagem da Vaga">
+        <div class="card-body">
+          <h5 class="card-title">{{vaga.nome}}</h5>
+          <p class="card-text">{{vaga.descricao}}</p>
+          <h4>Salário: {{vaga.salario}}</h4>
+          <a href="#" class="btn btn-primary">Aplicar na Vaga</a>
+        </div>
+      </div>
+</section>
